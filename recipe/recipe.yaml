@@ -25,6 +25,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
+    - servicex
     - uproot >=5.0
     - awkward >=2.6
     - dask-awkward >=2024.12.2
