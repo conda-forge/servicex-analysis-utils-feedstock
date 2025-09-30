@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: servicex-analysis-utils
-  version: "1.1.0"
+  version: "1.1.1"
   python_min: "3.9"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/servicex_analysis_utils-${{ version }}.tar.gz
-  sha256: b049167dad5c8c5766eff3ceaeff4eabaa1535b2bf87a7afb33aa1f07dcc63ce
+  sha256: 14117da37d0bcd9e3b29788914a295f822585f33043238f15be9669540eb6014
 
 build:
   number: 0
